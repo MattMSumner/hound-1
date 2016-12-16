@@ -32,6 +32,9 @@ $base-accent-color: $purple;
 $base-secondary-color: lighten($purple, 10%);
 $table-heading-background-color: rgb(245, 245, 245);
 $code-background-color: rgba(#99abc0, 0.25);
+$highlight-color: $gold;
+$highlight-color-dark: $dark-gold;
+$highlight-color-light: $light-gold;
 
 $home-gradient-top: rgb(196, 115, 209);
 $home-gradient-bottom: rgb(153, 115, 209);
@@ -39,7 +42,6 @@ $home-gradient-bottom: rgb(153, 115, 209);
 $icon-font: "FontAwesome";
 $icon-dropdown: '\f0d7';
 $icon-dropup: '\f0d8';
-$icon-lock: '\f023';
 
 $medium-header-breakpoint: 850px;
 
@@ -62,6 +64,7 @@ $large-border-radius: $base-border-radius + 1px;
 $small-border-radius: $base-border-radius - 2px;
 
 $base-spacing: 1.25em;
+$xxsmall-spacing: $base-spacing * 0.25;
 $xsmall-spacing: $base-spacing * 0.5;
 $small-spacing: $base-spacing * 0.75;
 $medium-spacing: $base-spacing * 1.5;
@@ -80,6 +83,7 @@ $font-size-medium: 1.25em;
 $font-size-large: 2.7em;
 $font-size-xlarge: 3em;
 $font-size-xxlarge: 3.8em;
+$font-size-icon: 1.25em;
 
 // Transition
 $base-transition-timing: 0.2s;
